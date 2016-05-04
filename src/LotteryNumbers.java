@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	JOptionPane.showMessageDialog(null, "You may notice that you get the same numbers. Well I did not say they were random. Just kidding here is some real random numbers.(No need to thank me)");
 	
 	for (int i = 1; i < 7; i++) {
-		int n = (new Random().nextInt(9))+ 1;
+		int n = (new Random().nextInt(49))+ 1;
 		JOptionPane.showMessageDialog(null, n );
 }
 }
